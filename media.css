@@ -1,0 +1,95 @@
+@media only screen and (max-width:1050px){
+    .menu{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+@media only screen and (max-width:830px){
+   
+    .aproposContainer{
+        display: block;
+    }
+   
+    .aproposContainerImage{
+        width: 100%;
+        padding-right:0rem ;
+    }
+    .aproposContainerDescription{
+        width: 100%;
+        padding-left: 0rem;
+        margin-top: 2rem;
+    }
+    .contactContainer{
+        display: block;
+    }
+    .contactContainerDescription{
+        width: 100%;
+        padding-right: 0rem;
+    }
+    .contactContainerForm{
+        width: 100%;
+        padding-left: 0rem;
+        margin-top: 2rem;
+    }
+    .planImages{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+    }
+    .plan2{grid-column: 2 / 3}
+    .plan3{grid-column: 1 / 2}
+}
+@media only screen and (max-width:800px){
+    h2{
+        font-size: 1.5rem;
+    }
+    .navBar{
+        padding:1rem 3rem ;
+    }
+    .mainDescriptionCover h1{
+        font-size: 2rem;
+    }
+    .mainDescriptionCover{
+        padding:5rem 3rem;
+    }
+    .aproposContainer{
+        padding: 3rem;
+    }
+    .nosServicesContainer{ padding: 3rem;}
+    .contactContainer{
+        padding: 3rem;
+    }
+    .plans{
+        padding: 3rem;
+    }
+}
+@media only screen and (max-width:650px){
+    .navBar{
+        padding:1rem 2rem ;
+    }
+    .mainDescriptionCover{
+        padding:5rem 2rem;
+    }
+    .aproposContainer{
+        padding: 2rem;
+    }
+    .nosServicesContainer{ padding: 2rem;}
+    .contactContainer{
+        padding: 2rem;
+    }
+    .plans{
+        padding: 2rem;
+    }
+    .planImages{
+        display: block;
+       
+    }
+    .planItem{
+        margin-top: 2rem;
+    }
+    .plansDescriptions p{
+        width: 100%;
+    }
+}
