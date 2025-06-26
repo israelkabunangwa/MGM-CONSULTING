@@ -1,4 +1,134 @@
-@media only screen and (max-width:1050px){
+@media only screen and (max-width:830px){
+    .menu{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .aboutUsContainer{
+        display: block;
+    }
+    .aboutUsTitle{
+        width: 100%;
+  
+        padding: 5rem;
+        justify-content: center;
+    }
+    .aboutUsText{
+        width: 100%;
+    }
+    .contactUsContainer{
+        display: block;
+    }
+    .contactUsImg{
+        width: 100%;
+    }
+    .contactForm{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:800px){
+    .headerDescription h1{
+        font-size: 2rem;
+    }
+    .introductionContainer{
+        display: block;
+    }
+    .introductionContainerImage{
+        width: 100%;
+        padding-right: 0rem;
+    }
+    .introductionContainerDescription{
+        width: 100%;
+        padding-left: 0rem;
+        margin-top: 2rem;
+    }
+    .aboutUsTitle h1{
+        font-size: 2rem;
+    }
+    .ourServices h1{
+        font-size: 2rem;
+    }.mainParaOurServices{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:650px){
+    .navBar{
+        padding: 1rem 3rem;
+    }
+    .headerDescription{
+        padding:10rem 3rem 5rem 3rem;
+    }
+    .introductionContainer{
+        padding: 3rem;
+    }
+    .nosplans{
+    padding:3rem; 
+}
+    .aboutUsTitle{
+        padding: 3rem;
+    }
+    .aboutUsText{
+        padding: 3rem;
+    }
+    .ourServices{
+        padding: 3rem;
+    }
+    .mainParaOurServices{
+        width: 100%;
+    }
+    .contactUs{padding: 3rem;}
+    
+    .footercontainerUp{
+        padding: 3rem;
+    }
+}
+@media only screen and (max-width:550px){
+     .navBar{
+        padding: 1rem 2rem;
+    }
+    .headerDescription{
+        padding:10rem 2rem 5rem 2rem;
+    }
+    .introductionContainer{
+        padding: 2rem;
+    }
+    .nosplans{
+    padding:2rem; 
+}
+    .aboutUsTitle{
+        padding: 2rem;
+    }
+    .aboutUsText{
+        padding: 2rem;
+    }
+    .ourServices{
+        padding: 2rem;
+    }
+    .mainParaOurServices{
+        width: 100%;
+    }
+    .serviceItem{
+    padding: 1rem;
+    
+}
+    .contactUs{padding: 2rem;}
+     .footercontainerUp{
+        padding: 2rem;
+       
+    }
+    .aboutUsTitle h1{
+        font-size: 1.7rem;
+    }
+    .ourServices h1{
+        font-size: 1.7rem;
+    }
+    .contactForm{
+    
+    padding:2rem 1rem;
+}
+}
+/*@media only screen and (max-width:1050px){
     .menu{
         display: none;
     }
@@ -92,4 +222,4 @@
     .plansDescriptions p{
         width: 100%;
     }
-}
+}*/

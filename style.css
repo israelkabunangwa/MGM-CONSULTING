@@ -13,11 +13,15 @@
 }
 h2{color: var(--primaryColor);line-height: 1.5rem;}
 
+p{
+    line-height: 1.5rem;
+}
+
 /*=======================HEADER=======================*/
 .header{
     background-image: url('IMG/12566892-homme-d-affaires-asiatique-ingenieur-en-construction-ouvrier-au-chantier-de-construction-de-maison-photo.jpg');
     background-size: cover;
-    height: 100vh;
+    
 }
 .headerContainer{
     background-color:rgba(0, 0, 0, 0.8);
@@ -48,7 +52,7 @@ h2{color: var(--primaryColor);line-height: 1.5rem;}
     color: var(--secondaryColor);  
 }
 .headerDescription{
-    padding: 5rem;
+    padding:10rem 5rem 5rem 5rem;
     display: flex;
     width: 100%;
     height: 85%;
@@ -69,7 +73,7 @@ h2{color: var(--primaryColor);line-height: 1.5rem;}
     border-radius: 0.2rem;
 }
 .mainTitle{
-    width: 50%;
+    width: 100%;
     height: 100%;
     padding-right:2rem ;
     display: flex;
@@ -283,4 +287,151 @@ margin-top: 2rem;
     color: var(--whiteColor);
     font-weight:bold ;
     padding: 1rem;
+}
+
+/*===================================FOOTER========================*/
+
+.footer{
+    
+   background: rgb(22, 22, 22);
+}
+.footercontainerUp{
+    padding: 5rem;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.footerLogo img{
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+}
+.footerMenu{
+    
+   
+}
+.footerMenu h5,.newsLetter h5{
+    border-bottom: 2px solid var(--secondaryColor);
+    color: var(--primaryColor);
+    padding-bottom: 1rem;
+}
+.footerMenu ul{
+    margin-top: 1rem;
+}
+.footerMenu ul li{
+    list-style: none;
+    line-height: 1.5rem;
+}
+.footerMenu ul li a{
+    text-decoration: none;
+    color: var(--whiteColor);
+    font-size: 0.7rem;
+}
+.newsLetter p{
+   margin-top: 1rem;
+}
+.newsLetter p span{
+  display: block;
+  color: var(--whiteColor);
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.newletterForm{
+    margin-top: 1rem;
+    display: flex;
+}
+.newletterForm input{
+    width: 80%;
+    padding: 0.5rem;
+    outline: none;
+    border: 0;
+}
+.newletterForm button{
+    width: 20%;
+    outline: none;
+    border: 0;
+    background: var(--secondaryColor);
+    color: var(--whiteColor);
+    font-weight: bolder;
+}
+.footerContainerDown{
+    background: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.footerContainerDown p{
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+/*==================*/
+
+.bars{
+    display: none;
+}
+
+.bars i{
+    color: var(--whiteColor);
+    font-size: 2rem;
+}
+
+
+.modal{
+    background-color: black;
+    display: none;
+    height:100vh;
+    width: 80%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1500;
+    animation-name:slideinModal ;
+    animation-duration: 0.5s;
+}
+@keyframes slideinModal {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+.closeM{
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+}
+.menuModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 90%;
+}
+.menuModal li{
+    list-style: none;
+    margin: 4rem 0rem;
+}
+.menuModal li a{
+    text-decoration: none;
+    color: white;
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+   background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    animation-name:fixedAnim;
+    animation-duration: 1s;
 }
